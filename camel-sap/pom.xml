@@ -486,6 +486,7 @@
 				<executions>
 					<execution>
 						<id>attach-sources</id>
+						<phase>generate-sources</phase>
 						<goals>
 							<goal>aggregate</goal>
 						</goals>
